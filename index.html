@@ -1,0 +1,52 @@
+ <!DOCTYPE html>
+ <html lang="en-us">
+ 
+ <head>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+     <title>Pokemon Encyclopedia</title>
+     <link rel="stylesheet" href="style.css">
+ </head>
+ 
+ <body>
+  <div class="landingpage">
+    <div class="PokemonEncyclopedia-layout">
+      <div class="pokemon-logo-resize">
+        <img src="images\pokemonlogo.webp" alt="Pokemon Logo">
+      </div>
+          <h1>Encyclopedia</h1>
+        </div>
+          <div class="pokeball-resize">
+            <img src="images\pokeball.png" alt="Pokemon Logo">
+          </div>
+          <p>Type in the name of any Pokémon you like and learn about it's abilities and stats!</p>
+          <!-- Search Bar -->
+          <section id="container">
+              <form action="results.html" method="get" onsubmit="search(event)">
+                  <input id="input" type="text" name="pokemon" placeholder="Enter A Pokémon's Name...">
+                  <button id="submit">GO</button>
+              </form>
+
+      <!-- Pokemon Stats -->
+      <div id="pokeinfocard" class="poke-info-card">
+          <div id="pokedex"pokeName></div>
+          <img id="pokeimg" pokeImg src=""/>
+          <div id="pokeid" pokeId></div>
+          <div id="poketypes" pokeTypes></div>
+          <div id="pokestats" pokeStats></div>
+          <div id="pokeabilities" pokeAbilities></div>
+          <div id="pokehp" pokeHP></div>
+          <div id="pokeattack" pokeAttack></div>
+          <div id="pokedef" pokeDefense></div>
+          <div id="pokespecialattack" pokeSpecialAttack></div>
+          <div id="pokespecialdefense" pokeSpecialDefense></div>
+          <div id="pokespeed" pokeSpeed></div>
+        </div>
+      </section>
+    </div>
+     <!-- <script src="https://pokeapi.co/api/v2/pokemon?limit=151"></script> -->
+     <script src="script.js"></script>
+ </body>
+ 
+ </html>

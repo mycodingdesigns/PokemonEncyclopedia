@@ -1,0 +1,85 @@
+/*Body*/
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/*Landing Page*/
+.landingpage {
+    display: box;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.PokemonEncyclopedia-layout {
+    display: block;
+
+}
+
+/* Landing Page: IMG Styles */
+.pokemon-logo-resize img{
+    width: 30%;
+    height: auto;
+    padding-top: 2%;
+}
+
+.pokeball-resize img{
+    width: 8%;
+    height: auto;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    transition: all 1s ease-out;
+}
+
+.pokeball-resize img:hover {
+    transform: scale(150px);
+    transform: rotate(360deg);
+}
+
+/* Landing Page: Text Styles */
+h1 {
+    color: #2757FF;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+p{
+    color: #2757FF;
+    font-weight: 600;
+    padding: 2%;
+}
+
+/* Search Bar Styles */
+#input {
+    border: 2px solid #2757FF;
+    box-shadow: 0 2px 0 #006599;
+    font-size: 20px;
+    border-radius: 50px;
+    padding: 1% 2%;
+  }
+  
+
+/* Search Bar Button Styles */
+#submit {
+    border: 2px solid #2757FF;
+    box-shadow: 0 2px 0 #006599;
+    border-radius: 50px;
+    font-size: 20px;
+    padding: 1% 2%;
+    text-align: center;
+    background-color: transparent;
+    transition: all .1s linear;
+}
+
+#submit:hover{
+    box-shadow: 0 6px 0 #006599;
+    color: white;
+    background-color: #4F76FF;
+    cursor: pointer;
+  }
+
+#submit:active {
+    background-color: #3b58c0;
+    transform: scale(90%);
+}
+
